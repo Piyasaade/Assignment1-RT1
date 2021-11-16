@@ -2,33 +2,24 @@ Python Robotics Simulator
 ================================
 
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
-Some of the arenas and the exercises have been modified for the Research Track I course
 
-Installing and running
-----------------------
+
+## General idea about the simulator
+-----------------------------------
+The main idea of this code is to control a robot in a way that will always grab the silver token and not the golden ones, while it will turn under specific conditions and angles that we set in this code once it detects a golden token. All these conditions and actions will be done due to some functions used in this code, like the function 'R.see' that will detect the type of the token and some will return values like the distances and angles between the robot and a specific token, and others will return right and left distances that will help on turning the robot where he has more space to do so. 
+
+How to install and run the code?
+--------------------------------
 
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
-Once the dependencies are installed, simply run the `test.py` script to test out the simulator.
-
-## Exercise
------------------------------
 
 To run one or more scripts in the simulator, use `run.py`, passing it the file names. 
-
-I am proposing you three exercises, with an increasing level of difficulty.
-The instruction for the three exercises can be found inside the .py files (exercise1.py, exercise2.py, exercise3.py).
 
 When done, you can run the program with:
 
 ```bash
-$ python run.py exercise1.py
-```
-
-You have also the solutions of the exercises (folder solutions)
-
-```bash
-$ python run.py solutions/exercise1_solution.py
+$ python run.py Assignment1_pia.py
 ```
 
 Robot API
@@ -93,4 +84,7 @@ for m in markers:
         print " - Arena marker {0} is {1} metres away".format( m.info.offset, m.dist )
 ```
 
-[sr-api]: https://studentrobotics.org/docs/programming/sr/
+[sr-api]: https://studentrobotics.org/docs/programming/sr/  
+
+Describing the flowchart 
+--------------------------------
