@@ -102,7 +102,7 @@ Therefore, it will start by comparing the distance between the golden token and 
 
 Secondly, if the distance between the robot and the golden token is greater than the fixed distance and the angle between them is greater tahn 75 then it will check the distance and angle between the silver one, so if silver token detected, the robot will drive and go to grab it, else if no silver token is detected, then the robot just has to drive following the path.
 
-Noting that, after all these steps, we have a loop  where all the procedure will be repeated.
+Noting that, after all these steps, we have a loop  where the procedure will be repeated.
 
 Possible Improvement:
 ---------------------
