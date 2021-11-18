@@ -95,9 +95,13 @@ for m in markers:
 Describing the flowchart 
 -------------------------
 Here is the procedure of a robot following a specific path in a way to grab the silver token and turn once a golden one is detected.
+
 Firstly,the robot will start by driving below the path, then by receiving the distances and angles of each token returned from a function.
+
 Therefore, it will start by comparing the distance between the golden token and the robot from a fixed distance chosen by the programer,if its less than this fixed one and the angle between this token and the robot is also less than 75 degrees then, the robot has to check now if the distance between the silver token and the robot is less than 1 and if the angle between them is less than 85 degrees.This means that a silver token is near the robot so he should drive toward the token and grab it.Else,the robot has to check the nearest golden tokens on his left and right, in such a way that he will have to go where there is more space due to a function used in the code which is 'R.see' that will return the distances on the right and on the left of the robot and compared them together.Thus the robot will take the direction  where the distance is greater and drive toward it.
+
 Secondly, if the distance between the robot and the golden token is greater than the fixed distance and the angle between them is greater tahn 75 then it will check the distance and angle between the silver one, so if silver token detected, the robot will drive and go to grab it, else if no silver token is detected, then the robot just has to drive following the path.
+
 Noting that, after all these steps, we have a loop  where all the procedure will be repeated.
 
 Possible Improvement:
