@@ -106,4 +106,5 @@ Noting that, after all these steps, we have a loop  where the procedure will be 
 
 Possible Improvement:
 ---------------------
+Autonomous path planning is the most important issue which must be resolved first in the process of improving robotic manipulator intelligence. This can be done by using the RRT algorithm which stands for a rapidly exploring random tree. It's an algorithm used to high-dimensional spaces by randomly building a space-filling tree. It can do both, creates and finds a path for addition it aims to achieve a shortest path. Its logic is very simple and straight forward, eacg vertex (highest point) will be created,a check must be made that the vertex lies outside of an obstacle,The algorithm ends when a node is generated within the goal region
 
