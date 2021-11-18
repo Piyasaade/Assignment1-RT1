@@ -25,7 +25,13 @@ $ python run.py Assignment1_pia.py
 Robot API
 ---------
 
-The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
+The API for controlling a simulated robot is designed to if the distance
+ between
+the robot and the
+ silver token is
+ less than 1 and the angle
+between them
+is less than 85be as similar as possible to the [SR API][sr-api].
 
 ### Motors ###
 
@@ -88,3 +94,4 @@ for m in markers:
 
 Describing the flowchart 
 -------------------------
+
