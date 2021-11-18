@@ -94,6 +94,9 @@ for m in markers:
 
 Describing the flowchart 
 -------------------------
+
+![Flowchart-RT1-Assignment1 (1)](https://user-images.githubusercontent.com/94491181/142486425-a486f0be-6fb5-47ce-b4e7-83525b9947b2.jpg)
+
 Here is the procedure of a robot following a specific path in a way to grab the silver token and turn once a golden one is detected.
 
 Firstly,the robot will start by driving below the path, then by receiving the distances and angles of each token returned from a function.
@@ -104,7 +107,8 @@ Secondly, if the distance between the robot and the golden token is greater than
 
 Noting that, after all these steps, we have a loop  where the procedure will be repeated.
 
+
 Possible Improvement:
 ---------------------
 Autonomous path planning is the most important issue which must be resolved first in the process of improving robotic manipulator intelligence. This can be done by using the RRT algorithm which stands for a rapidly exploring random tree. It's an algorithm used to high-dimensional spaces by randomly building a space-filling tree. It can do both, creates and finds a path for addition it aims to achieve a shortest path. Its logic is very simple and straight forward, eacg vertex (highest point) will be created,a check must be made that the vertex lies outside of an obstacle,The algorithm ends when a node is generated within the goal region
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/94491181/142485633-26255c0f-2772-4637-b7d9-9a867c202cdc.jpg)
