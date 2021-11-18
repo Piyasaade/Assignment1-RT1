@@ -94,4 +94,5 @@ for m in markers:
 
 Describing the flowchart 
 -------------------------
-
+Here is the procedure of a robot following a specific path in a way to grab the silver token and turn once a golden one is detected.
+Firstly,the robot will start by driving below the path, then by receiving the distances and angles of each token returned from a function therefore, it will start by comparing the distance between the golden token and the robot from a fixed distance chosen by the programer,if its less than this distance and if the angle between this token and the robot is also less than 75 degrees then, the robot have to check now if the distance between the silver token and the robot is less than 1 and if the angle between them is less than 85 degrees than this means that a silver token is near the robot so he should drive toward the token and grab it if not,the robot has to check  
